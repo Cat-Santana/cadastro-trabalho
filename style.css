@@ -1,0 +1,86 @@
+/* background: https://br.pinterest.com/pin/301248662586510800/ */
+
+body{
+    background-image: url(./cloud.jpg);
+}
+
+.forms{
+    display: table;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.title{
+    background-color: aliceblue;
+    border-radius: 80px;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: xx-large;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-left: 15%;
+    margin-right:15%;
+}
+#form{
+    display: flex;
+    flex-direction: row;
+}
+
+.nome,.email, .phone, .curriculo, .tecs{
+    background-color:#f9e7d2 ;
+    border-style: solid;
+    border-width: medium;
+    border-color: #c6bcbc;
+    border-radius: 3em;
+    display:ruby-base-container;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:  'cursive';
+    padding-left: 10px;
+    padding-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+       
+    }
+
+    .opt-1, .opt-2, .opt-3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 2%;
+        margin-left: 5%;
+        padding-top: 2%;
+        border: white;
+        border-radius: 15px;        
+    }
+
+    #name, #mail,#phone, #curriculo{
+        border-radius: 15px;
+        width: 30%;
+        padding-left: 1%;
+    }
+    .button{
+        border-radius: 15px;
+        width: 40%;
+        padding-left: 1%;
+        background-color: rgb(51, 51, 83);
+        color: azure;
+        font-size: larger;
+        font-family: 'Pixelify Sans', cursive;
+        margin-left: 25%;
+    }
+
+    .button::shadow{
+        background-image: linear-gradient(#ffcccb ,#ffbaba );
+    }
+    button:hover{
+        transform : scale (1.1) rotate(-1deg);
+        background-color: #004141;
+        color: white;   
+    }
+
+
+    

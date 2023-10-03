@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate-se!</title>
+    <link rel="stylesheet" href="style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pixelify+Sans&display=swap');</style>
+</head>
+<body>
+
+<section class="forms">
+   <div class="title">
+     <h1> ABC Company Recruitment</h1>
+     
+     <h2> Trabalhe Conosco </h2>
+    
+     <h5 style="padding: 1px 2px 5px 2px;"> Cadastre-se no nosso banco de talentos e espere nosso contato.</h5>        
+   </div> 
+
+   <form>
+        <div class="nome">
+            <label for="name"> <b>Nome Completo:</b> </label>
+            <input type = "text" id ="name"/>
+        </div>
+        <div class="email">
+            <label for="mail"><b> Email: </b></label>
+            <input type = "email" id ="mail"/>
+        </div>
+
+        <div class="phone">
+            <label for="tel"> <b></b>Telefone: </b></label>
+            <input type = "number" minlength="9" maxlength="12" placeholder="(xx)xxxxx-xxx" id="phone"/>
+        </div>
+
+        <div class="curriculo">
+            <p><b>Curriculum Vitae:</b></p>
+            <input type='file' accept=".pdf,.doc,.docx" required id="curriculo"/>
+        </div>
+
+        <div class="tecs">
+            <label for="tecnologias">
+                <b>Tecnologias que você conhece ou está aprendendo:</b>               
+            </label>
+            
+            <br>
+
+            <div class="opt-1"> 
+                <input type="checkbox" value=""><li>HTML e CSS</li> &nbsp &nbsp 
+                <input type="checkbox" value=""> <li>Phyton</li> &nbsp &nbsp 
+                <input type="checkbox" value=""> <li>JavaScript</li> &nbsp &nbsp 
+            </div> 
+            <div class="opt-2"> 
+                <input type="checkbox" value=""><li>Php</li> &nbsp &nbsp 
+                <input type="checkbox" value=""> <li>C#</li> &nbsp &nbsp 
+                <input type="checkbox" value=""> <li>C++</li> &nbsp &nbsp 
+            </div>
+                <div class="opt-3">
+                <input type="checkbox" value=""><li>Kotlin</li> &nbsp &nbsp 
+                <input type="checkbox" value=""> <li>Java</li> &nbsp &nbsp 
+                <input type="checkbox" value=""> <li>Swift</li> &nbsp &nbsp
+            </div>     
+
+        </div>
+        <br>
+
+        <button type="submit" class="button"> Enviar </button>
+
+   </form>
+
+</section>
+
+    
+</body>
+</html>
